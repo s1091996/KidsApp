@@ -25,7 +25,13 @@ public partial class kidsLearningDetailPage : ContentPage
 		            case "Colors":
 		                CvKids.ItemsSource = learningdata.Colors;
 		                break;
-		            default:
+					case "Animals":
+						CvKids.ItemsSource = learningdata.Animals;
+						break;
+					case "Fruits":
+						CvKids.ItemsSource = learningdata.Fruits;
+						break;
+					default:
 		                break;
 		        }
 	}
